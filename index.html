@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="./css/index.css">
+  <link rel="stylesheet" href="//at.alicdn.com/t/c/font_4029958_5nabz9bb5ln.css">
+</head>
+<body>
+  <div id="app" class="flex-column">
+    <div class="head flex-row">
+      <div class="home-icon flex-center"><span class="iconfont icon-home"></span></div>
+      <div class="music-name flex-center">李荣浩-李白</div>
+      <div class="share-icon flex-center"><span class="iconfont icon-share"></span></div>
+    </div>
+    <div class="body">
+      <img class="body-bg" src="./img/1709003652762.jpg"  alt=""/>
+      <div class="cover flex-center">
+        <img class="cover-img" src="./img/1709003652762.jpg" alt=""/>
+        <img class="cover-disc" src="./img/1709003652769.png" alt="">
+      </div>
+    </div>
+    <div class="foot">
+      <div class="box-time">
+        <div class="start">01:30</div>
+        <div class="to">03:40</div>
+      </div>
+      <div class="start_to">
+        <div class="now_time"></div>
+      </div>
+      <div class="btn flex-row">
+        <div class="moshi"><span class="iconfont icon-danquxunhuan"></span></div>
+        <div class="sub"><span class="iconfont icon-shangyiqu"></span></div>
+        <div class="play_pause"><span class="iconfont icon-zanting"></span></div>
+        <div class="add"><span class="iconfont icon-xiayiqu"></span></div>
+        <div class="meau"><span class="iconfont icon-caidan"></span></div>
+      </div>
+    </div>
+  </div>
+  <div id="music-list-dialog">
+     <!--  关闭按钮  -->
+     <span id="btn-close">
+       <i class="iconfont icon-close"></i>
+     </span>
+    <div id="music-list">
+      <ul>
+      </ul>
+    </div>
+  </div>
+  <script src="./js/jquery-3.7.1.js"></script>
+  <script src="./js/index.js"></script>
+</body>
+</html>
